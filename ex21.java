@@ -6,8 +6,8 @@ public class ex21 {
 
     public static void main(String[] args) {
 
-        int[] numbersTable = { 5, 4, 8, 9, 10, 155 };
-        int number = 1555;
+        int[] numbersTable = { 5, 1, 8, 2, 10, 5 };
+        int number = 8;
         int index = Arrays.binarySearch(numbersTable, number);
 
         if (index >= 0) {
