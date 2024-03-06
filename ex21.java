@@ -3,7 +3,12 @@
 public class ex21 {
 
     public static void main(String[] args) {
+
+   int[] numbersTable = {5,4,8,9,10,155};
+   int number = 155;
+
    
+
 
         System.out.println();
     }
