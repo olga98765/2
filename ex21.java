@@ -1,15 +1,19 @@
 // 1.1) Napisz funkcję, która przyjmuje tablicę i liczbę do znalezienia, a następnie zwraca indeks tej liczby w tablicy (lub -1, jeśli nie znaleziono).
 
+import java.util.Arrays;
+
 public class ex21 {
 
     public static void main(String[] args) {
 
-   int[] numbersTable = {5,4,8,9,10,155};
-   int number = 155;
+        int[] numbersTable = { 5, 4, 8, 9, 10, 155 };
+        int number = 1555;
+        int index = Arrays.binarySearch(numbersTable, number);
 
-   
-
-
-        System.out.println();
+        if (index >= 0) {
+            System.out.println("indeks " + index);
+        } else {
+            System.out.println(-1);
+        }
     }
 }
