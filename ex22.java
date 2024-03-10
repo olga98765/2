@@ -9,6 +9,13 @@ public class ex22 {
    for (int number :numbersArray) {
 
 System.out.println(number);
+if (number %2 == 0) {
+    System.out.println("podzielna przez 2");
+}else if (number %3 == 0) {
+    System.out.println("podzielna przez 3");
+
+
+}
 
 
 
