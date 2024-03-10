@@ -1,4 +1,3 @@
-// [10:09] Filip Kuca AEH
 // 1.2) Napisz funkcję, która przyjmuje zakres liczb i zwraca tablicę liczb pierwszych w tym zakresie.
 
 import java.util.ArrayList;
