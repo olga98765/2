@@ -8,9 +8,12 @@ public class ex22 {
 
    for (int number :numbersArray) {
 
+System.out.println(number);
+
+
+
+
    }
 
-
-        System.out.println();
     }
 }
