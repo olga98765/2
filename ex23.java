@@ -5,12 +5,19 @@ public class ex23 {
 
     public static void main(String[] args) {
    int[] numbersArray = {1,2,3,6,5,1,2,3,2,1,1};
-   int number = 1;
+   int number = 6;
+   int sum = 0;
 
-for (int i = 0; i< numbersArray.length; i++)
-System.out.println(numbersArray[i]);
+   for (int numberArray : numbersArray) {
+    if (numberArray == number) {
+sum ++;
+System.out.println(sum);
+    }
+   }
+
 
 }
 
 }
     
+
