@@ -4,7 +4,12 @@
 public class ex22 {
 
     public static void main(String[] args) {
-   
+   int[] numbersArray = {1,2,3,4,5,6,7,11,21,23,60};
+
+   for (int number :numbersArray) {
+
+   }
+
 
         System.out.println();
     }
