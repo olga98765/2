@@ -6,12 +6,12 @@ public class ex21 {
 
     public static void main(String[] args) {
 
-        int[] numbersArray = { 5, 1, 8, 2, 10, 5 };
-        int number = 8;
+        int[] numbersArray = { 5, 1, 8, 2, 10, 50 };
+        int number = 5;
         int index = Arrays.binarySearch(numbersArray, number);
 
         if (index >= 0) {
-            System.out.println("indeks " + index);
+            System.out.println(index);
         } else {
             System.out.println(-1);
         }
