@@ -11,6 +11,7 @@ public class ex24 {
             sum += i;
 
         }
+        
         System.out.println("Wynik " + sum);
 
     }
