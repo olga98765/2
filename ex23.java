@@ -4,8 +4,13 @@
 public class ex23 {
 
     public static void main(String[] args) {
-   
+   int[] numbersArray = {1,2,3,6,5,1,2,3,2,1,1};
+   int number = 1;
 
-        System.out.println();
-    }
+for (int i = 0; i< numbersArray.length; i++)
+System.out.println(numbersArray[i]);
+
 }
+
+}
+    
