@@ -2,7 +2,6 @@
 // 1.2) Napisz funkcję, która przyjmuje zakres liczb i zwraca tablicę liczb pierwszych w tym zakresie.
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class ex22 {
 
@@ -22,17 +21,14 @@ public class ex22 {
                         break;
                     }
                 }
-
-                if (prime == true) {
-                    primeNumbersList.add(number);
-
-                    System.out.println(primeNumbersList);
-
-                }
+            }
+            if (prime) {
+                primeNumbersList.add(number);
 
             }
-
         }
+        System.out.println(primeNumbersList);
+
     }
 
 }
