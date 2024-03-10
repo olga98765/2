@@ -30,5 +30,4 @@ public class ex22 {
         System.out.println(primeNumbersList);
 
     }
-
 }
