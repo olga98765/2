@@ -2,7 +2,7 @@
 
 import java.util.Arrays;
 
-public class ex23 {
+public class Ex23 {
 
     public static void main(String[] args) {
         int[] numbersArray = { 1, 2, 3, 6, 5, 1, 2, 3, 2, 1, 1 };

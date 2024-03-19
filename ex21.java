@@ -2,12 +2,12 @@
 
 import java.util.Arrays;
 
-public class ex21 {
+public class Ex21 {
 
     public static void main(String[] args) {
 
         int[] numbersArray = { 5, 1, 8, 2, 10, 50 };
-        int number = 5;
+        int number = 50;
         int index = Arrays.binarySearch(numbersArray, number);
 
         if (index >= 0) {
